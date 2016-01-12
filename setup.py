@@ -13,9 +13,9 @@ setup(
     data_files=[('/etc/nandy', ['nandy.yaml'])],
     scripts=['bin/nandy'],
     install_requires=[
-        'python-novaclient',
-        'python-keystoneclient',
-        'sqlalchemy==1.0.11',
-        'MySQL-python'
+    #    'python-novaclient',
+    #    'python-keystoneclient',
+    #    'sqlalchemy==1.0.11',
+    #    'MySQL-python'
     ]
 )
