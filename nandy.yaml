@@ -1,0 +1,15 @@
+# Sample configuration. Switch values to fit your environment.
+auth_url: http://your_auth_url
+username: some_username
+password: some_password
+project_id: some_tenant_id
+
+polling_interval: 30
+
+db:
+  username: database_username
+  password: database_password
+  host: 127.0.0.1
+  port: 3306
+  dbname: nandy
+
